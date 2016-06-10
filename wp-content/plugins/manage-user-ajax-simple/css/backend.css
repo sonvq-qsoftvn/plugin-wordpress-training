@@ -1,0 +1,66 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 14, 2016, 10:19:17 AM
+    Author     : michael7
+*/
+
+.input_err{
+    border: red 1px solid !important;
+}
+.show_err{
+    color: red;
+}
+.border_bottom{
+    /*border-bottom: 1px solid red !important;*/
+}
+.wrap_field_type{
+    float: left;
+}
+.view_next{
+    float: left;
+}
+#qsoft_dropdown_option{
+    float: left;
+    max-width: 550px;
+    display: none;
+    margin-left: 20px;
+}
+.form_manage_field label{
+    /*display: block;*/
+}
+.mail_config table{
+    width: 100%;
+ }  
+ .mail_config input[type=text], .mail_config textArea{
+     width: 100%;
+ }
+ .mail_config th{
+     width: 100px;
+     text-align: right;
+ }
+ .block_auto_create_data{
+     background: #fff;
+     border: 1px solid #ccc;
+     padding: 10px;
+ }
+ .block_auto_create_data .dismiss{
+     float: right;
+ }
+ .wrap_img_social img{
+     height: 200px;
+     border: 1px solid #ccc;
+     margin: 10px;
+ }
+ .qsoft_tab_content,.qsoft_main-content{
+     float: left;
+     width: 70%;
+ }
+ .qsoft_sidebar{
+     float: left;
+     width: 25%;
+     margin: 10px;
+ }

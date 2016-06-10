@@ -1,0 +1,71 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 1, 2016, 11:15:37 AM
+    Author     : michael7
+*/
+
+.hidden{
+    display: none !important;
+}
+.input_err{
+    border: 1px solid red;
+}
+.label_err{
+    color: red;
+}
+.qsoft_img_loading{
+    height: 16px;
+}
+
+
+input[type="text"], input[type="email"], 
+input[type="url"], input[type="password"],
+input[type="search"], input[type="tel"], 
+input[type="number"], textarea,select {
+    background: #f7f7f7;
+    background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+    border: 1px solid #d1d1d1;
+    border-radius: 2px;
+    color: #686868;
+    padding: 0.625em 0.4375em;
+    width: 100%;
+}
+.success{
+    color: green;
+}
+.error,.err_text{
+    color: red;
+}
+input.input_err{
+    border: 1px solid red !important;
+}
+.q_btn{
+    /*    background: #4267b2;
+        color: white;*/
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+}
+.q_btn:hover{
+    opacity: 0.8;
+    color: black;
+}
+.q_btn_facebook{
+    background: #4267b2;
+    color: white;
+}
+.q_btn_facebook:hover{
+
+
+}
+.q_btn_google{
+    background: #d73d32;
+    color: white;
+}
+.home_direct{
+    margin: 20px 0;
+}
