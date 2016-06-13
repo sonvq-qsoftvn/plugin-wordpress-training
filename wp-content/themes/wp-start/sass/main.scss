@@ -1,0 +1,74 @@
+/*
+Theme Name: Qsoft
+Theme URI: http://qsoftvietnam.com
+Author: deedstc
+Author URI: http://deedstc.com
+Description: Qsoft theme
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: deeds
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+deeds is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+@import "partials/reset";
+@import "vendor/vendors";
+
+@import "partials/mixins";
+@import "_media-queries";
+
+//Style
+
+input[type="text"],
+input[type="password"],
+textarea,
+button {
+    -webkit-appearance:none;
+    outline: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="date"],
+input[type="datalist"],
+input[type="time"] {
+	
+}
+
+.btn {
+	height: 40px;
+	cursor: pointer;
+	border-radius: 0;
+	box-shadow: none;
+	background-color: $blue;
+	color: #fff;
+	font-style: italic;
+	@extend %transition-bg;
+	font-size: 16px;
+	min-width: 170px;
+	padding: 8px 12px;
+	font-weight: normal;
+	&:hover, &:focus, &:active {
+		background-color: $blue-light;
+		color: #fff;
+	}
+	.fa {
+		margin-left: 15px;
+	}
+}
+
+@import "pages/responsive";

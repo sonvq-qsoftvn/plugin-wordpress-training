@@ -1,0 +1,493 @@
+/** Stylesheet for d-options page **/
+img, button, input[type="submit"], a {
+	outline: none;
+	border: 0px;
+}
+.d-wrap [class^="icon-"], [class*=" icon-"] {
+	font-size: 15px;
+}
+.d-options-icon {
+	background: url(../img/d-options-icon32.png) no-repeat;
+}
+.d-mailchimp-icon {
+	background: url(../img/mailchimp-logo.png) no-repeat;
+	width: 32px;
+	height: 32px;
+}
+#adminmenu .wp-menu-image img {
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+.d-wrap .fix, .d-wrap .clear {
+	clear: both;
+}
+.d-wrap .clear:before, .d-wrap .clear:after {
+	display: table;
+	content: "";
+	line-height: 0;
+}
+.d-wrap ul {
+	margin: 0px;
+}
+.d-wrap a {
+	text-decoration: none;
+}
+.d-wrap a, .d-wrap img {
+	outline: none;
+}
+.d-wrap {
+	width: 860px;
+}
+.d-header {
+	width: auto;
+	padding: 20px;
+	border: 1px solid #e4e4e4;
+	border-radius: 5px 5px 0px 0px;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	-moz-border-radius: 5px 5px 0px 0px;
+	height: 40px;
+	background-color: #f6f6f6;
+}
+.d-header .d-logo {
+	display: inline-block;
+	width: 60px;
+	height: 36px;
+	background: url(../img/logo.png) no-repeat;
+}
+.d-options-wrap {
+	margin-top: 0px;
+	border: 1px solid #e4e4e4;
+	border-top: 0px;
+	background-color: #f6f6f6;
+}
+.d-sidebar {
+	width: 200px;
+	float: left;
+}
+.d-sidebar > ul > li {
+	border-bottom: 1px solid #E4E4E4;
+	/*border-top: 1px solid #FFF;*/
+	margin-bottom: 0px;
+	background: #f6f6f6;
+	position: relative;
+}
+.d-sidebar > ul > li:before {
+	position: absolute;
+	background-color: #E4E4E4;
+	width: 5px;
+	height: 100%;
+	content: '';
+	border-top: 1px solid #E4E4E4;
+	transition: all 0.2s ease-in;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+}
+.d-sidebar > ul > li.active:before {
+	background-color: #ff6f6f;
+	border-top: 1px solid #ff6f6f;
+}
+.d-sidebar > ul > li:last-child {
+	/*border-bottom: 0px;*/
+	border-radius: 0px 0px 0px 3px;
+	-webkit-border-radius: 0px 0px 0px 3px;
+	-moz-border-radius: 0px 0px 0px 3px;
+}
+.d-sidebar > ul > li.active {
+	border-right: 0px;
+	background-color: #fff;
+	width: 201px;
+}
+.d-sidebar > ul > li > a {
+	display: block;
+	padding: 10px 10px 7px 10px;
+	font: bold 12px/18px sans-serif;
+	text-decoration: none;
+	color: #888;
+	text-shadow: 0 1px 0 #FFF;
+}
+.d-sidebar > ul > li > a:hover {
+	color: #f95f5f;
+	background-color: #fff;
+}
+.d-sidebar > ul > li > ul > li a {
+	background-color: #FFF;
+	background-image: none;
+	border-bottom: 0;
+	padding: 3px 5px 3px 25px;
+	border: none;
+	display: block;
+	color: #777;
+	text-shadow: none;
+}
+.d-sidebar > ul > li > ul > li a:hover {
+	background-color: #f8f8f8;
+}
+.d-content {
+	margin-left: 200px;
+	background: #FFF;
+	padding-left: 20px;
+	border-left: 1px solid #e4e4e4;
+	min-height: 500px;
+	padding-bottom: 20px;
+}
+.d-tab {
+	padding-top: 20px;
+	width: 620px;
+	/*display: none;*/
+}
+.d-tab.active {
+	display: block;
+}
+.d-tab ul.tab-click {
+	height: 37px;
+	border-bottom: 1px solid #E4E4E4;
+	padding-left: 30px;
+}
+.d-tab ul.tab-click li {
+	border-style: solid;
+	border-width: 1px 1px 0;
+	color: #ccc;
+	text-shadow: #FFF 0 1px 0;
+	font-size: 12px;
+	line-height: 16px;
+	display: inline-block;
+	text-decoration: none;
+	margin: 0 6px -1px 0;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+.d-tab ul.tab-click li.active {
+	border-color: #CCC #CCC #FFF;
+	border-width: 1px;
+}
+.d-tab ul.tab-click li.active a {
+	color: #777;
+}
+.d-tab ul.tab-click li a {
+	padding: 10px;
+	display: inline-block;
+	color: #9b9b9b;
+	font-weight: bold;
+}
+.d-tab ul.tab-click li a:hover, .d-tab ul.tab-click li a.active {
+	color: #777;
+}
+
+.tab-focus {
+	margin-top: 20px;
+	/*display: none;*/
+	width: 620px;
+}
+.tab-focus.active {
+	display: block;
+}
+.d-option-box {
+	border-bottom: 1px solid #E9E9E9;
+	padding-bottom: 20px;
+	margin-bottom: 15px;
+	position: relative;
+}
+.d-option-box label {
+	display: block;
+	font-weight: bold;
+	color: #777;
+	padding-bottom: 5px;
+	cursor: default;
+}
+.d-section {
+	margin-right: 15px;
+	min-height: 32px;
+}
+.d-section-desc {
+	margin-top: 3px;
+	font-size: 11px;
+	color: #999;
+	font-style: italic;
+}
+.d-footer {
+	width: auto;
+	padding: 20px;
+	border: 1px solid #e4e4e4;
+	border-radius: 0px 0px 5px 5px;
+	-webkit-border-radius: 0px 0px 5px 5px;
+	-moz-border-radius: 0px 0px 5px 5px;
+	height: 40px;
+	background-color: #f6f6f6;
+	border-top: 0px;
+}
+.d-button {
+	background-color: #ff6f6f;
+	border: solid 1px #ff6f6f;
+	border-radius: 3px;
+	color: #FFF;
+	cursor: pointer;
+	font-family: Arial,Helvetica,sans-serif;
+	padding: 5px 15px;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+	transition: border-color 0.2s ease-in;
+	-webkit-transition: border-color 0.2s ease-in;
+	-moz-transition: border-color 0.2s ease-in;
+	transition: background-color 0.2s ease-in;
+	-webkit-transition: background-color 0.2s ease-in;
+	-moz-transition: background-color 0.2s ease-in;
+	padding: 6px;
+	width: auto;
+}
+.d-button:hover {
+	border-color: #ff4242;
+	text-decoration: none;
+	color: #FFF;
+	background-color:  #ff5252;
+}
+.d-save-button {
+	float: right;
+}
+ul.d-nav li i {
+	margin-right: 6px;
+	color: #777;
+	font-size: 15px;
+	width: 16px;
+	display: inline-block;
+	text-align: center;
+}
+ul.d-nav li.active i {
+	color: #ff6f6f;
+}
+ul.d-nav li i:hover {
+
+}
+.d-nav a:focus {
+	box-shadow: none;
+}
+.loading-element {
+border-radius: 5px;
+	border-radius: 5px;
+	position: fixed;
+	top: 180px;
+	left: 50%;
+	width: 100px;
+	margin-left: -60px;
+	padding: 5px;
+	box-shadow: rgba(0, 0, 0, 0.4) 0 0 5px;
+	-moz-box-shadow: rgba(0,0,0,0.4) 0 0 5px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.4) 0 0 5px;
+	background: #FFF url(../img/circle-loading.gif) no-repeat 5px 9px;
+	font-size: 11px;
+	font-family: tahoma;
+	font-weight: bold;
+	color: #555;
+	padding-left: 22px;
+	display: none;
+}
+.loading-element.saved {
+	background: #FFF url(../img/saved.png) no-repeat 5px 9px;
+}
+.d-review-upload {
+	margin-top: 5px;
+	position: relative;
+	display: none;
+}
+.d-review-upload.active {
+	display: block;
+}
+.d-review-upload .icon-trash {
+	cursor: pointer;
+	font-size: 14px;
+	color: #FF3A3A;
+}
+.check-label {
+	margin-top: 3px;
+	font-size: 11px;
+	color: #999;
+	font-style: italic;
+	font-weight: normal !important;
+	cursor: pointer !important;
+	display: inline-block !important;
+}
+.d-wrap input[type="text"]  {
+	border-radius: 0px !important;
+	height: 30px;
+	width: 400px;
+	transition: border-color 0.2s ease-in;
+	-webkit-transition: border-color 0.2s ease-in;
+	-moz-transition: border-color 0.2s ease-in;
+	color: #666 !important;
+}.d-wrap select {
+	min-width: 150px;
+	border-radius: 0px;
+	height: 25px;
+	transition: border-color 0.2s ease-in;
+	-webkit-transition: border-color 0.2s ease-in;
+	-moz-transition: border-color 0.2s ease-in;
+	color: #777;
+}
+.d-wrap textarea {
+	border-radius: 0px;
+	width: 400px;
+	height: 120px;
+	transition: border-color 0.2s ease-in;
+	-webkit-transition: border-color 0.2s ease-in;
+	-moz-transition: border-color 0.2s ease-in;
+}
+.d-wrap input:focus, .d-wrap select:focus, .d-wrap textarea:focus {
+	box-shadow: none !important;
+	border-color: #afafaf !important;
+}
+.multi-checkboxes .d-section label {
+	font-weight: normal;
+	display: inline-block;
+	margin-right: 15px;
+}
+.box-mask {
+	height: 100%;
+	width: 100%;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0.8;
+	background: #FFF;
+}
+.box-mask.hide {
+	display: none;
+}
+[class^="ico-layout-"],
+[class*=" ico-layout-"] {
+	width: 13px;
+	height: 13px;
+	display: inline-block;
+	background: url(../img/layout-icons.png) no-repeat;
+	vertical-align: text-top;
+	margin: 1px 0 0;
+}
+.ico-layout-nosidebar {
+	background-position: -66px -99px;
+}
+.ico-layout-withsidebar {
+	background-position: -33px 0px;
+}
+.typography-box .typo-unit {
+	width: 50px !important;
+	min-width: 50px !important;
+	float: left;
+	margin-right: 5px;
+}
+.typography-box .typo-face, .typography-box .typo-style, .typo-transform {
+	width: 100px;
+	min-width: 100px !important;
+	float: left;
+	margin-right: 5px;
+}
+.typography-box .typo-size, .input-number {
+	float: left;
+	width: 43px !important;
+	text-transform: uppercase;
+	text-align: center;
+	height: 25px !important;
+}
+.typo-color {
+	float: left;
+	width: 75px !important;
+	text-transform: uppercase;
+	text-align: center;
+	height: 25px !important;
+	margin-right: 5px;
+}
+.d-colorpicker {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	width: 27px;
+	height: 27px;
+	background: url(../img/colorpicker/select.png) no-repeat;
+	float: left;
+	margin-right: 5px;
+}
+.d-colorpicker div {
+	position: absolute;
+	top: 4px;
+	left: 3px;
+	width: 21px;
+	height: 19px;
+	background: url(../img/colorpicker/select.png) center;
+}
+.d-btn {
+	background: #FFF;
+	border: 1px solid #CCC;
+	color: #555;
+	padding: 4px 6px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	transition: border-color 0.2s ease-in;
+	-webkit-transition: border-color 0.2s ease-in;
+	-moz-transition: border-color 0.2s ease-in;
+	cursor: pointer;
+}
+.d-btn:hover {
+	border-color: #999;
+	color: #555;
+}
+.preview-typo {
+	display: inline-block;
+}
+.preview-typo-result {
+	padding: 15px;
+	border: 1px solid #E4E4E4;
+	margin: 15px 0px;
+	display: none;
+	position: relative;
+}
+.preview-typo-result.active {
+	display: block;
+}
+.hide-preview-typo {
+	position: absolute;
+	top: -6px;
+	right: -5px;
+	color: #FF3A3A;
+	cursor: pointer;
+	font-size: 14px;
+}
+.input-button-wrap {
+	position: relative;
+	height: 26px;
+	overflow: hidden;
+	float: left;
+	width: 60px;
+	margin-right: 5px;
+}
+.number-button {
+	position: absolute;
+	float: left;
+	background: #FFF url('../img/btn-control.png') no-repeat center -11px;
+	left: 43px;
+	width: 15px;
+	height: 11px;
+	border: 1px solid #DFDFDF;
+	margin: 0;
+	padding: 0;
+	text-indent: -9999px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.btn-plus {
+	top: 1px;
+	background-position: center 1px;
+}
+.btn-minus {
+	top: 13px;
+}
+h2.mailchimp-title {
+	background: #FFF url(../img/mailchimp-logo.jpg) no-repeat;
+	padding-left: 45px;
+	border-bottom: 1px solid #E4E4E4;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	color: #777;
+}
+
+/** Icon menu **/

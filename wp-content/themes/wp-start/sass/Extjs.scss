@@ -1,0 +1,21 @@
+/*
+ * Ext JS Library 2.2.1
+ * Copyright(c) 2006-2009, Ext JS, LLC.
+ * licensing@extjs.com
+ * 
+ * http://extjs.com/license
+ */
+
+select{font-size:11px}
+
+#images{background:#fff; font:11px Arial,Helvetica,sans-serif}
+#images .thumb{background:#ddd; padding:3px}
+#images .thumb img{border:1px solid white; height:60px; width:80px}
+#images .thumb-wrap{float:left; margin:4px; margin-right:0; padding:5px; height:80px}
+#images .thumb-wrap span{display:block; overflow:hidden; text-align:center}
+#images .x-view-selected .thumb{background:#8db2e3}
+
+.x-view-sortable-dragging .thumb-wrap{}
+.thumb-wrap.x-view-sortable-drag{ background:#8db2e3}
+
+.x-small-editor tr{background-color:transparent}

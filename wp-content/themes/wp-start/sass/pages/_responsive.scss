@@ -1,0 +1,27 @@
+@include screen(768px, 1024px) {
+
+}
+
+@include max-screen(1024px) {
+    body {
+        min-width: 720px;
+    }    
+}
+
+@include max-screen(767px) {
+    body {
+        min-width: 320px;
+    }
+}
+
+@include max-screen(640px) {
+
+}
+
+@include max-screen(480px) {
+	
+}
+
+@include max-screen(320px) {
+	
+}

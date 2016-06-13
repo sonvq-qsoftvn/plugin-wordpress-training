@@ -1,0 +1,15 @@
+html, body {
+	background: #FFF !important;
+}
+.container {
+	width: 500px;
+}
+.shortcode-tab {
+	display: none;
+}
+#d_shortcodes_form {
+	padding-bottom: 10px;
+}
+.panel-body h4 {
+	margin-bottom: 20px;
+}

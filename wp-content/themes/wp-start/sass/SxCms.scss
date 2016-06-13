@@ -1,0 +1,157 @@
+*{margin:0; padding:0}
+
+body{margin:0; padding:0; font:65%/1.5 Verdana,Tahoma,Arial,Helvetica,sans-serif; color:#333; background:#FFF url(../images/cms/interface/bg.gif) repeat-x}
+
+a{color:#036; background-color:inherit; text-decoration:none}
+a:hover{color:#CC0001; background-color:inherit}
+
+h1, h2, h3{font-family:Arial,'Trebuchet MS',Sans-Serif; font-weight:bold; color:#333}
+h1{font-size:120%; letter-spacing:.5px}
+h2{font-size:115%; text-transform:uppercase}
+h3{font-size:115%; color:#036}
+
+img{border:none}
+img.float-right{ margin:5px 0px 10px 10px}
+img.float-left{ margin:5px 10px 10px 0px}
+
+h1, h2, h3, p{padding:0; margin:10px}
+
+ul, ol{margin:10px 20px; padding:0 20px}
+
+acronym{ cursor:help;  border-bottom:1px solid #777}
+
+label{display:block; font-weight:bold; margin:5px 0}
+.label-radio{color:#666; font-weight:normal; padding-left:20px}
+
+input{padding:2px; border:1px solid #eee; font:normal 1em Verdana,sans-serif; color:#777}
+input[type="radio"]{border:none}
+
+textarea{width:400px; padding:2px; font:normal 1em Verdana,sans-serif; border:1px solid #eee; height:100px; display:block; color:#777}
+input.button{margin:0; font:bolder 12px Arial,Sans-serif; border:1px solid #CCC; padding:1px; background:#FFF; color:#C00}
+
+td, th{text-align:left; vertical-align:top}
+table{border-collapse:collapse; margin:10px}
+tr{background:#fff}
+tr.altrow{background:#F9F9F9}
+th, td{text-align:left; border-width:1px;  border-style:solid}
+th{color:#444; background:#F6F5F5; padding:.8em 1em; border-color:#EFEFEF; font-weight:normal}
+td{border-color:#EFEFEF; padding:.7em 1em}
+
+form{margin:0 5px 5px 0; padding:0; border:none; background:none}
+form p{border-bottom:1px solid #E6E6E6; padding:12px 0 5px 0; margin:0; color:#7BA857}
+
+form p.thumb{border-bottom:1px solid #E6E6E6; padding:12px 0 5px 0; margin:0; color:#7BA857; float:left}
+label{font-weight:bold; color:#7BA857}
+input, select, textarea, .file{margin:5px 0; padding:5px; color:#6A6969; border-width:1px; border-style:solid;  border-color:#d4d4d4 #ebebeb #ebebeb #d4d4d4; font:11px 'Lucida Grande',Verdana,Helvetica,sans-serif}
+
+select option{ padding-right:10px}
+
+input:focus, select:focus, textarea:focus{color:#7BA857; background:#EFFAE6}
+
+form input.button, form input.cancel{font:bold 12px Arial,Sans-serif; height:30px; margin:0; padding:2px 3px; color:#fff; background:#67B021; border-width:1px;  border-style:solid;  border-color:#B6DE8F #8DB836 #8DB836 #B6DE8F}
+
+form input.cancel{background:#EF0E17; border-color:#CF0C19}
+ul.errors{margin:0; padding:0; list-style-type:none; color:red}
+
+form dd ul.errors{margin:0; padding:0}
+form dd p.description{margin:0; padding:0 0 5px 0; color:#BFBFBF; font-style:italic}
+form dd p.warning{margin:0; padding:0 0 5px 0; color:red; font-style:italic}
+form dd p.info{margin:0; padding:0 0 5px 0; color:#666}
+form .button{margin-top:5px}
+
+#wrap{margin:0 auto; width:970px}
+
+#header{position:relative; margin:0; padding:0; height:60px}
+#header span#slogan{z-index:3; position:absolute; left:3px; bottom:7px; font:bold 1.2em Verdana,Arial,Tahoma, Sans-serif; color:#FFF}
+
+#header-logo{position:relative; clear:both; height:50px; margin:0; padding:0}
+#header-logo #logo{position:absolute; top:3px; left:5px; font:bold 30px "trebuchet MS",Arial,Tahoma,Sans-Serif; margin:0; padding:0; letter-spacing:-1px; color:#000544}
+#welcome{text-align:right; padding:10px 0 0 0}
+
+#header ul{position:absolute;    margin:0;    list-style:none; right:-18px; bottom:3px; font:bold 13px 'Trebuchet MS',Arial,Sans-serif}
+#header li{   display:inline;    margin:0; padding:0}
+#header a{   float:left;    background:url(../images/cms/interface/tableft.gif) no-repeat left top;    margin:0;    padding:0 0 0 4px;    text-decoration:none}
+#header a span{   float:left;    display:block;    background:url(../images/cms/interface/tabright.gif) no-repeat right top;  padding:5px 15px 4px 6px;  color:#FFF}
+#header a span{float:none}
+#header a:hover span{color:#FFF}
+#header a:hover{ background-position:0% -42px}
+#header a:hover span{ background-position:100% -42px}
+#header #current a{ background-position:0% -42px}
+#header #current a span{ background-position:100% -42px}
+
+#main{float:right; margin:0; padding:0; width:805px}
+#main h1{margin:10px 0; padding:4px 0 4px 8px; font-size:105%; color:#FFF; text-transform:uppercase; background-color:#6DB81F; letter-spacing:.5px}
+
+#sidebar{float:left; width:160px; margin:0; padding:0; background-color:#FFF}
+#sidebar h1{margin:10px 0 0 0; padding:4px 0 4px 8px; font:bold 105% Arial,Sans-Serif; color:#FFF; text-transform:uppercase; background:#000544; letter-spacing:1px}
+#sidebar .left-box{border:1px solid #EBEBEB; margin:0 0 5px 0; background:#FFF}
+#sidebar ul.sidemenu{list-style:none; text-align:left; margin:3px 0px 8px 0; padding:0; text-decoration:none}
+#sidebar ul.sidemenu li{border-bottom:1px solid #f2f2f2; background:url(../images/cms/interface/bullet.gif) no-repeat 3px 2px; padding:3px 5px 3px 25px; margin:0}
+#sidebar ul.sidemenu a{font-weight:bolder; padding:3px 0px; background:none}
+
+#breadcrumbs{background-color:#e0e0e0; padding:5px; margin:0 0 10px 0}
+#breadcrumbs ul{list-style-type:none; margin:0; padding:0}
+#breadcrumbs li{display:inline}
+
+.footer{clear:both; border-top:1px solid #f2f2f2; background:#FFF url(../images/cms/interface/footerbg.gif) repeat-x; padding:2px 0 10px 0; text-align:center;  line-height:1.5em; font-size:95%}
+.footer a{text-decoration:none; font-weight:bold}
+
+.float-left{float:left}
+.float-right{float:right}
+.align-left{text-align:left}
+.align-right{text-align:right}
+
+.clear{clear:both}
+.red{color:#C00}
+.green{color:#6DB81F}
+.comments{margin:20px 10px 5px 10px; padding:3px 0; border-bottom:1px dashed #EFF0F1; border-top:1px dashed #EFF0F1}
+
+.expired{background-color:#EF3B3B}
+.tendays{background-color:#FEFFAF}
+.fivedays{background-color:#FFCF4F}
+
+.errcount{color:#C00}
+
+.full{background-color:#6DB81F}
+
+#tabs{margin-left:8px}
+
+.template{float:left; width:320px; border:1px solid #F6F6F6; padding:10px; margin:0 10px 10px 0}
+.template:hover{background-color:#F6F6F6}
+.template img{display:inline; vertical-align:top; float:left; margin-right:10px}
+
+table.sortable thead{    background-color:#eee;     color:#666;     font-weight:bold;     cursor:default}
+
+#loadingScreen{/*background:url(../images/ajax-loader.gif) no-repeat 5px 8px;*/ padding-left:35px}
+#info{padding-left:35px}
+.errinfo{cursor:pointer}
+
+.perms{margin-left:20px;  font-style:italic;  color:#CCC}
+
+td.ico{vertical-align:middle}
+td.ptitle{line-height:12px}
+
+.ui-dialog .ui-dialog-titlebar-close {display: none;} /* fix: jquery ui dialog */
+
+/* ROTATE TEXT 90° */
+.rot-neg-90 {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+
+  /* also accepts left, right, top, bottom coordinates; not required, but a good idea for styling */
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+
+  /* Should be unset in IE9+ I think. */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  
+  display: block;
+  font-size: 11px;
+  width: 12px;
+}

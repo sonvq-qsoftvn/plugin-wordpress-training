@@ -1,0 +1,46 @@
+.row { 
+    width: 100%; 
+    max-width: $grid-max-width; 
+    margin: 0 auto; 
+    
+    &:before, &:after {
+        content:""; 
+        display: table; 
+        clear:both;
+    }
+}
+
+[class*='col-'] { 
+    float: left; 
+    min-height: 1px; 
+    width: (100 / $grid-columns)*1%; 
+    padding: 0 $grid-gutter;
+    position: relative;
+}
+
+$ratio: 100% / $grid-columns;
+@for $i from 1 through $grid-columns {
+    .col-#{$i} {
+        width: $ratio * $i;
+    }
+    .suffix-#{$i} {
+        padding-right: ($ratio * $i);
+    }
+    .prefix-#{$i} {
+        padding-left: ($ratio * $i);
+    }
+}
+
+.alpha { padding-left: 0; }
+.omega { padding-right: 0; }
+
+/**
+ *     Breaking points
+ */
+
+@media all and (max-width:767px){
+    [class*='col-'] {
+        width: 100%; 
+        padding: 0 $grid-gutter;
+    }
+}
