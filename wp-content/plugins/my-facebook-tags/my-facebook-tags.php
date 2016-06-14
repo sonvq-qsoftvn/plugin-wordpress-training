@@ -66,7 +66,7 @@ function my_plugin_menu() {
 
 function my_plugin_settings_page() { ?>
     <div class="wrap">
-        <h2><?php _e( 'Staff Details', 'my-staff-plugin' ) ?></h2>
+        <h2><?php _e( 'Staff Details', 'my-plugin-settings' ) ?></h2>
         <form method="post" action="options.php">
             <?php settings_fields( 'my-plugin-settings-group' ); ?>
             <?php do_settings_sections( 'my-plugin-settings-group' ); ?>

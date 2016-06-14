@@ -1,7 +1,10 @@
 https://premium.wpmudev.org/blog/wordpress-plugin-development-guide/?trm=b&utm_expid=3606929-67.-MP1PYYzS_6mvlSTiltv6Q.1&utm_referrer=https%3A%2F%2Fwww.google.com%2F
-
+done
 
 https://premium.wpmudev.org/blog/wordpress-hooks/?trm=b&utm_expid=3606929-67.-MP1PYYzS_6mvlSTiltv6Q.1&utm_referrer=https%3A%2F%2Fpremium.wpmudev.org%2Fblog%2Fwordpress-plugin-development-guide%2F%3Ftrm%3Db
+
+http://code.tutsplus.com/tutorials/creating-a-custom-wordpress-registration-form-plugin--cms-20968
+done
 
 quangsonpro
 langtudeptrai
