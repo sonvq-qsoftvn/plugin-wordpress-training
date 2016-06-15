@@ -6,5 +6,8 @@ https://premium.wpmudev.org/blog/wordpress-hooks/?trm=b&utm_expid=3606929-67.-MP
 http://code.tutsplus.com/tutorials/creating-a-custom-wordpress-registration-form-plugin--cms-20968
 done
 
+
+https://www.elegantthemes.com/blog/tips-tricks/how-to-create-a-wordpress-plugin
+
 quangsonpro
 langtudeptrai
